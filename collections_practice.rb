@@ -7,6 +7,6 @@ end
 
 def first_wa(array)
   array.select do |word|
-    word.include?("a")
+    word.include?('a')
   end
 end
