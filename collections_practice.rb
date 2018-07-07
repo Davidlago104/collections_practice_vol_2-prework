@@ -16,3 +16,8 @@ def first_wa(array)
     word.to_s.start_with?("wa")
   end
 end
+
+def remove_non_strings(array)
+  array.select do |strings|
+    strings.is_a?(strings)
+end
