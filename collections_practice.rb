@@ -20,4 +20,5 @@ end
 def remove_non_strings(array)
   array.select do |strings|
     strings.is_a?(strings)
+  end
 end
