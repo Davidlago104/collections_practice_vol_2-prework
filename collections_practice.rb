@@ -22,3 +22,7 @@ def remove_non_strings(array)
     strings.is_a?(String)
   end
 end
+
+def count_elements(array)
+  c
+end
